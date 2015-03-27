@@ -1,20 +1,12 @@
-Source: tv-maxe
+Source: channel-editor
 Section: x11
 Priority: extra
-Maintainer: Mamut R. Ghiunhan <venerix@gmail.com>
-Build-Depends: debhelper (>= 7), build-essential
+Maintainer: Mamut R. Ghiunhan <venerix@blug.ro>
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.3
-Homepage: http://code.google.com/p/tv-maxe/
+Homepage: https://code.google.com/p/tv-maxe/downloads/detail?name=channel-editor.tar.gz&can=2&q=
 
-Package: tv-maxe
+Package: channel-editor
 Architecture: any
-Multi-arch: allowed
-Depends: python, python-gtk2, python-glade2, vlc (>=1.1.0) | mplayer, sp-auth:any, python-gst0.10, python-imaging, python-virtkey 
-Recommends: mencoder, rtmpdump
-Description: Watch TV channels on Linux
- TV-MAXE is an application which provides
- the ability to watch TV stations and to
- listen radio via different streams, such
- is SopCast. Currently it has a large 
- number of channels, both romanian and
- international.
+Depends: python, python-gtk2, python-glade2, python-pycurl, tv-maxe
+Description: Edit TV-MAXE channels list.

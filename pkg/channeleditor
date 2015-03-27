@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#################################################################
+#		TV-MAXE 0.07 Launcher Script			#
+#	Author : V3n3RiX [ at ] MandrivaUsers [ dot ] ro	#
+#################################################################
+
+
+# Version 0.07 comes with massive amount of changes, so old settings
+# might not be compatible. TV-MAXE should migrate them automathically
+# to the new format, but if for some reason it fails, errors can occur.
+# 
+# This script checks the presence of old settings, backs them up
+# and it asures that tv-maxe is started from a clean environment.
+
+workdir=/home/$USER/
+
+launch_channeleditor ()
+{
+	cd /usr/share/channel-editor/
+	python channeleditor.py
+}
+
+doit ()
+{
+	launch_channeleditor
+}
+
+doit
+exit 0

@@ -1,0 +1,29 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Categories=AudioVideo;P2P;Video;TV;GTK;
+MimeType=application/x-tv-maxe;
+Name=TV-MAXE Channel Editor
+Name[hr]=TV-MAXE uređivač popisa programa
+GenericName=TV-MAXE Channel Editor
+GenericName[hr]=TV-MAXE uređivač popisa programa
+X-GNOME-FullName=TV-MAXE Channel Editor
+X-GNOME-FullName[hr]=TV-MAXE uređivač popisa programa
+Comment=Create, add and edit TV-MAXE channels lists.
+Comment[hr]=Napravite, dodajte i uredite popise programa za TV-MAXE.
+Exec=channeleditor %U
+Icon=/usr/share/channel-editor/channeleditor.png
+StartupNotify=true
+Terminal=false
+Keywords=TV;Television;Programs;channels;HD;HD channels;
+X-GNOME-Settings-Panel=channel-editor
+X-Ubuntu-Gettext-Domain=channel-editor
+X-Ayatana-Desktop-Shortcuts=tv-maxe
+
+[tv-maxe Shortcut Group]
+Name=TV-MAXE - watch TV on Linux
+Name[hr]=TV-MAXE - gledajte TV na vašem računalu
+Exec=tv-maxe
+TargetEnvironment=Unity

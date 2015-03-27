@@ -25,11 +25,11 @@ install: build
 	dh_prep
 	dh_installdirs
 	# Add here commands to install the package into debian/tv-maxe
-	install -p -dm 0755 $(CURDIR)/debian/tv-maxe/usr/bin
-	install -p -m 0755 $(CURDIR)/tvmaxe $(CURDIR)/debian/tv-maxe/usr/bin
-	install -p -dm 0755 $(CURDIR)/debian/tv-maxe/usr/share/applications
-	install -p -m 0644 $(CURDIR)/tv-maxe.desktop $(CURDIR)/debian/tv-maxe/usr/share/applications
-	cp -r $(CURDIR)/tv-maxe $(CURDIR)/debian/tv-maxe/usr/share	
+	install -p -dm 0755 $(CURDIR)/debian/channel-editor/usr/bin
+	install -p -m 0755 $(CURDIR)/channeleditor $(CURDIR)/debian/channel-editor/usr/bin
+	install -p -dm 0755 $(CURDIR)/debian/channel-editor/usr/share/applications
+	install -p -m 0644 $(CURDIR)/tv-maxe-channel-editor.desktop $(CURDIR)/debian/channel-editor/usr/share/applications
+	cp -r $(CURDIR)/channel-editor $(CURDIR)/debian/channel-editor/usr/share	
 
 		
 binary-indep: install

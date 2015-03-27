@@ -1,7 +1,0 @@
-#!/bin/bash
-set -x
-# Install intltool package
-# po file script generator and string updater
-intltool-update --report
-
-exit 0
