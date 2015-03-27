@@ -7,6 +7,7 @@ except:
     remoteC = None
 
 slist = []
+slist.append([1, 'http://github.com/muzena/tv-maxe/raw/master/subscriptions/Croatia'])
 slist.append([1, 'http://tv-maxe.org/subscriptions/Romania.db'])
 slist.append([1, 'http://tv-maxe.org/subscriptions/International'])
 
