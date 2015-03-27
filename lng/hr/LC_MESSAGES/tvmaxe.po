@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tv-maxe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 03:30+0100\n"
+"POT-Creation-Date: 2015-03-27 15:41+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -654,7 +654,7 @@ msgstr ""
 "<b>Zakazano vrijeme isključivanja je pokrenuto. <a href=\"cancel\">Kliknite "
 "ovdje za prestanak isključivanja</a></b>"
 
-#: ../tvmaxe.glade.h:70 ../tv-maxe.desktop:7
+#: ../tvmaxe.glade.h:70
 msgid "TV-MAXE"
 msgstr "TV-MAXE"
 
@@ -1161,7 +1161,7 @@ msgid ""
 "and watch the channels offered by this service directly from TV-MAXE."
 msgstr ""
 "Možete se prijaviti na vaš PBX račun i gledati pretplatničke\n"
-"programe izravno na TV-MAXE-u (rumunjski programi)."
+"programe izravno na TV-MAXEU (rumunjski programi)."
 
 #: ../tvmaxe.glade.h:198
 msgid "<a href=\"http://pbxtv.ro/\">Don't have an account? Click here</a>"
@@ -1376,6 +1376,5 @@ msgstr "Petak"
 msgid "Saturday"
 msgstr "Subota"
 
-#: ../tv-maxe.desktop:8
-msgid "Free television for your Linux system."
-msgstr "Gledajte besplatno TV na vašem Linuxu sustavu."
+#~ msgid "Free television for your Linux system."
+#~ msgstr "Gledajte besplatno TV na vašem Linuxu sustavu."

@@ -1161,7 +1161,7 @@ msgid ""
 "and watch the channels offered by this service directly from TV-MAXE."
 msgstr ""
 "Možete se prijaviti na vaš PBX račun i gledati pretplatničke\n"
-"programe izravno na TV-MAXE-u (rumunjski programi)."
+"programe izravno na TV-MAXEU (rumunjski programi)."
 
 #: ../tvmaxe.glade.h:198
 msgid "<a href=\"http://pbxtv.ro/\">Don't have an account? Click here</a>"
