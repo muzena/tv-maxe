@@ -1,0 +1,11 @@
+tv-maxe (0.11-0ubuntu3~trusty) trusty; urgency=high
+
+  * Update po files and croatian translation
+
+ -- Goran Vidovic (gogo) <trebelnik2@gmail.com>  Fri, 27 Mar 2015 00:06:05 +0100
+
+tv-maxe (0.11-0ubuntu2~trusty) trusty; urgency=low
+
+  * Initial release
+
+ -- Mamut R. Ghiunhan <venerix@gmail.com>  Sun, 23 Mar 2013 20:33:29 +0300

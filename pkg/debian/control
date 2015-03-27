@@ -1,0 +1,20 @@
+Source: tv-maxe
+Section: x11
+Priority: extra
+Maintainer: Mamut R. Ghiunhan <venerix@gmail.com>
+Build-Depends: debhelper (>= 7), build-essential
+Standards-Version: 3.9.3
+Homepage: http://code.google.com/p/tv-maxe/
+
+Package: tv-maxe
+Architecture: any
+Multi-arch: allowed
+Depends: python, python-gtk2, python-glade2, vlc (>=1.1.0) | mplayer, sp-auth:any, python-gst0.10, python-imaging, python-virtkey 
+Recommends: mencoder, rtmpdump
+Description: Watch TV channels on Linux
+ TV-MAXE is an application which provides
+ the ability to watch TV stations and to
+ listen radio via different streams, such
+ is SopCast. Currently it has a large 
+ number of channels, both romanian and
+ international.
