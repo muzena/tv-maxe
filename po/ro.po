@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 15:41+0100\n"
+"POT-Creation-Date: 2015-04-03 01:18+0200\n"
 "PO-Revision-Date: 2011-08-17 11:25+0200\n"
 "Last-Translator: Daniel Serbanescu <cyber19rider@gmail.com>\n"
 "Language-Team: TV-MAXE Project\n"
@@ -333,13 +333,13 @@ msgstr ""
 msgid "TV-Maxe connected to Petrodava, but received an invalid response."
 msgstr ""
 
-#: ../settingsManager.py:369
+#: ../settingsManager.py:370
 msgid ""
 "Incoming and outgoing ports cannot be the same. Please review your settings."
 msgstr ""
 "Porturile de intrare și ieșire nu pot fi aceleași. Revizuiți configurația."
 
-#: ../settingsManager.py:370
+#: ../settingsManager.py:371
 msgid "Configuration error"
 msgstr "Eroare în configurație"
 
@@ -470,7 +470,7 @@ msgstr ""
 msgid "Select stream"
 msgstr ""
 
-#: ../tvmaxe.glade.h:36
+#: ../tvmaxe.glade.h:36 ../tvmaxe.py:832
 #, fuzzy
 msgid "Record stream"
 msgstr "Înregistrează"
@@ -1171,6 +1171,11 @@ msgstr ""
 msgid "Very low"
 msgstr ""
 
+#: ../tvmaxe.py:764 ../tvmaxe.py:846
+#, fuzzy
+msgid "Record"
+msgstr "Se înregistrează..."
+
 #: ../tvmaxe.py:881 ../tvmaxe.py:1005
 #, fuzzy, python-format
 msgid "Loading: %s"
@@ -1332,6 +1337,15 @@ msgstr "Vineri"
 #: ../tvmaxe.py:3033
 msgid "Saturday"
 msgstr "Sâmbătă"
+
+#: ../tvmaxe.py:3149
+msgid "Sorry, but this channel does not exists."
+msgstr ""
+
+#: ../tvmaxe.py:3157
+#, fuzzy
+msgid "Save recording..."
+msgstr "Se înregistrează..."
 
 #~ msgid "Brightness"
 #~ msgstr "Luminozitate"

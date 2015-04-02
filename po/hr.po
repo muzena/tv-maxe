@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tv-maxe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-27 15:41+0100\n"
+"POT-Creation-Date: 2015-04-03 01:18+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -372,13 +372,13 @@ msgstr "Petrodava ne radi"
 msgid "TV-Maxe connected to Petrodava, but received an invalid response."
 msgstr "TV-Maxe je povezan s Petrodava, ali prima neispravan odgovor."
 
-#: ../settingsManager.py:369
+#: ../settingsManager.py:370
 msgid ""
 "Incoming and outgoing ports cannot be the same. Please review your settings."
 msgstr ""
 "Dolazni i odlazni ulaz ne mogu biti jednaki. Promijenite vaše postavke."
 
-#: ../settingsManager.py:370
+#: ../settingsManager.py:371
 msgid "Configuration error"
 msgstr "Greška podešavanja"
 
@@ -518,7 +518,7 @@ msgstr "Snimi ovo"
 msgid "Select stream"
 msgstr "Odaberi stream"
 
-#: ../tvmaxe.glade.h:36
+#: ../tvmaxe.glade.h:36 ../tvmaxe.py:832
 msgid "Record stream"
 msgstr "Snimi stream"
 
@@ -1213,6 +1213,10 @@ msgstr "Niska"
 msgid "Very low"
 msgstr "Vrlo niska"
 
+#: ../tvmaxe.py:764 ../tvmaxe.py:846
+msgid "Record"
+msgstr "Snimi"
+
 #: ../tvmaxe.py:881 ../tvmaxe.py:1005
 #, python-format
 msgid "Loading: %s"
@@ -1375,6 +1379,14 @@ msgstr "Petak"
 #, fuzzy
 msgid "Saturday"
 msgstr "Subota"
+
+#: ../tvmaxe.py:3149
+msgid "Sorry, but this channel does not exists."
+msgstr "Nažalost, ovaj program ne postoji."
+
+#: ../tvmaxe.py:3157
+msgid "Save recording..."
+msgstr "Spremi snimanje..."
 
 #~ msgid "Free television for your Linux system."
 #~ msgstr "Gledajte besplatno TV na vašem Linuxu sustavu."

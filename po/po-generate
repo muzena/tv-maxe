@@ -2,6 +2,27 @@
 set -x
 # Install intltool package
 # po file script generator and string updater
+# msgunfmt tvmaxe.mo > tvmaxe.po
+
 intltool-update --report
+
+msgcat da.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/da/LC_MESSAGES/tvmaxe.mo
+
+msgcat es.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/es/LC_MESSAGES/tvmaxe.mo
+
+msgcat hr.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/hr/LC_MESSAGES/tvmaxe.mo
+
+msgcat ro.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/ro/LC_MESSAGES/tvmaxe.mo
+
+msgcat ru.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/ru/LC_MESSAGES/tvmaxe.mo
+
+rm *.mo
+
+mv untitled.pot tvmaxe.pot
 
 exit 0

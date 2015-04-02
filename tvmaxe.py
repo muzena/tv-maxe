@@ -761,7 +761,7 @@ class TVMaxe:
                             self.gui.get_object('menuitem40').hide()
                             self.gui.get_object(
                                 'menuitem47').set_label(
-                                    'Record')
+                                    _('Record'))
                             self.gui.get_object('menuitem47').set_submenu(None)
                             if hasattr(self, 'handler_menuitem47'):
                                 self.gui.get_object(
@@ -829,7 +829,7 @@ class TVMaxe:
                                 del self.handler_menuitem47
                             self.gui.get_object(
                                 'menuitem47').set_label(
-                                    'Record stream')
+                                    _('Record stream'))
                             submenu = self.generateStreamsMenu(
                                 id, 'radio_rec', urls)
                             if hasattr(self, 'handler_menuitem47'):
@@ -843,7 +843,7 @@ class TVMaxe:
                             self.gui.get_object('menuitem40').hide()
                             self.gui.get_object(
                                 'menuitem47').set_label(
-                                    'Record')
+                                    _('Record'))
                             self.gui.get_object('menuitem47').set_submenu(None)
                             if hasattr(self, 'handler_menuitem47'):
                                 self.gui.get_object(
@@ -1042,7 +1042,7 @@ class TVMaxe:
         if self.url != '':
             if self.getTime_to:
                 gobject.source_remove(self.getTime_to)
-            self.logo = [1, _("Recording: %s" % self.currentChannel.name)]
+            self.logo = [1, _("Recording: %s") % self.currentChannel.name]
             if self.urlIndex > 0:
                 gobject.idle_add(
                     self.statusbar,
@@ -3146,7 +3146,7 @@ class TVMaxe:
             if self.autoplay_channel in self.channels:
                 self.playChannel(self.channels[self.autoplay_channel])
             else:
-                gobject.idle_add(tools.msg_error, "Sorry, but this channel does not exists.")
+                gobject.idle_add(tools.msg_error, _("Sorry, but this channel does not exists."))
                 self.stop()
         elif self.autoplay_url:
             gobject.idle_add(self.playURL, self.autoplay_url)
@@ -3154,7 +3154,7 @@ class TVMaxe:
 
     def saveRecord(self, tip):
         dialog = gtk.FileChooserDialog(
-            "Save recording...",
+            _("Save recording..."),
             None,
             gtk.FILE_CHOOSER_ACTION_SAVE,
             (gtk.STOCK_CANCEL,
