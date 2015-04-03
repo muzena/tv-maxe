@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tv-maxe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-03 01:29+0200\n"
+"POT-Creation-Date: 2015-04-03 03:20+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1098,7 +1098,7 @@ msgstr ""
 "Sopcast modul je prestao s radom. To znači da stream više nije dostupan ili "
 "da se 'sp-sc-auth' proces ne može pokrenuti."
 
-#: ../tvmaxe.glade.h:183
+#: ../tvmaxe.glade.h:183 ../tvmaxe.py:1689
 msgid "Closing in 5 seconds..."
 msgstr "Zatvaranje za 5 sekundi..."
 
@@ -1291,6 +1291,11 @@ msgstr "ili pokušajte kasnije."
 #: ../tvmaxe.py:1670
 msgid "Reported error: "
 msgstr "Prijavljena greška: "
+
+#: ../tvmaxe.py:1681
+#, python-brace-format
+msgid "Closing in {0} seconds..."
+msgstr "Zatvaranje {0} sekundi..."
 
 #: ../tvmaxe.py:2048
 msgid "Add a Radio channel"

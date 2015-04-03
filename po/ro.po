@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-03 01:29+0200\n"
+"POT-Creation-Date: 2015-04-03 03:20+0200\n"
 "PO-Revision-Date: 2011-08-17 11:25+0200\n"
 "Last-Translator: Daniel Serbanescu <cyber19rider@gmail.com>\n"
 "Language-Team: TV-MAXE Project\n"
@@ -1053,7 +1053,7 @@ msgstr ""
 "fluxul nu mai funcționează sau că procesul \\'sp-sc\\' nu a putut fi "
 "inițializat."
 
-#: ../tvmaxe.glade.h:183
+#: ../tvmaxe.glade.h:183 ../tvmaxe.py:1689
 msgid "Closing in 5 seconds..."
 msgstr ""
 
@@ -1254,6 +1254,11 @@ msgstr ""
 #, fuzzy
 msgid "Reported error: "
 msgstr "Raportat"
+
+#: ../tvmaxe.py:1681
+#, python-brace-format
+msgid "Closing in {0} seconds..."
+msgstr ""
 
 #: ../tvmaxe.py:2048
 msgid "Add a Radio channel"

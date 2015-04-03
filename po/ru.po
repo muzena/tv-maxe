@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-03 01:29+0200\n"
+"POT-Creation-Date: 2015-04-03 03:20+0200\n"
 "PO-Revision-Date: 2011-08-08 00:18+0300\n"
 "Last-Translator: alondra <adrianistor@gmail.com>\n"
 "Language-Team: ro\n"
@@ -1052,7 +1052,7 @@ msgstr ""
 "Работа Sopcast клиента закончилсь преждевременно. Это может означать, что "
 "поток не работает, или что \\'sp-sc\\' не может быть инициализирован."
 
-#: ../tvmaxe.glade.h:183
+#: ../tvmaxe.glade.h:183 ../tvmaxe.py:1689
 msgid "Closing in 5 seconds..."
 msgstr ""
 
@@ -1254,6 +1254,11 @@ msgstr ""
 #, fuzzy
 msgid "Reported error: "
 msgstr "Сообщено"
+
+#: ../tvmaxe.py:1681
+#, python-brace-format
+msgid "Closing in {0} seconds..."
+msgstr ""
 
 #: ../tvmaxe.py:2048
 msgid "Add a Radio channel"

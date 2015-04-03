@@ -1678,7 +1678,7 @@ class TVMaxe:
         if self.countdown != 0:
             self.countdown = self.countdown - 1
             self.gui.get_object('label32').set_text(
-                'Closing in {0} seconds...'.format(self.countdown))
+                _('Closing in {0} seconds...').format(self.countdown))
             return True
         else:
             self.hideError()
@@ -1686,7 +1686,7 @@ class TVMaxe:
 
     def hideError(self, obj=None):
         self.gui.get_object('window5').hide()
-        self.gui.get_object('label32').set_text('Closing in 5 seconds...')
+        self.gui.get_object('label32').set_text(_('Closing in 5 seconds...'))
 
     def showGhidTV(self, obj, channel=None):
         try:
@@ -2428,7 +2428,7 @@ class TVMaxe:
                 self.gtkMessage,
                 gtk.MESSAGE_ERROR,
                 gtk.BUTTONS_CLOSE,
-                _('Error'),
+                (_('Error')),
                 _('Cannot fetch the channel list. Aborting...'))
             gobject.idle_add(self.gui.get_object('vbox26').set_sensitive, True)
             gobject.idle_add(self.gui.get_object('hbox27').hide)
