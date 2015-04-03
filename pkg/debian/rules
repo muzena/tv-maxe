@@ -10,6 +10,7 @@
 #export DH_VERBOSE=1
 
 build: build-stamp
+	/usr/bin/msgfmt $(CURDIR)/channel-editor/po/hr.po --output-file $(CURDIR)/channel-editor/lng/hr/LC_MESSAGES/channeleditor.mo
 
 build-stamp: 
 	dh_testdir

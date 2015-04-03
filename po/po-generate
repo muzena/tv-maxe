@@ -1,0 +1,16 @@
+#!/bin/bash
+set -x
+# Install intltool package
+# po file script generator and string updater
+# msgunfmt tvmaxe.mo > tvmaxe.po
+
+intltool-update --report
+
+msgcat hr.po | msgfmt -o tvmaxe.mo -
+cp tvmaxe.mo ../lng/hr/LC_MESSAGES/channeleditor.mo
+
+rm *.mo
+
+mv untitled.pot channeleditor.pot
+
+exit 0
