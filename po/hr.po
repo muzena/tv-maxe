@@ -1391,7 +1391,7 @@ msgstr "Nažalost, ovaj program ne postoji."
 
 #: ../tvmaxe.py:3157
 msgid "Save recording..."
-msgstr "Spremi snimanje..."
+msgstr "Spremite snimanje..."
 
 #~ msgid "Free television for your Linux system."
 #~ msgstr "Gledajte besplatno TV na vašem Linuxu sustavu."
