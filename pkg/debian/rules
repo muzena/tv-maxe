@@ -7,9 +7,15 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
 
 build: build-stamp
+	/usr/bin/msgfmt $(CURDIR)/tv-maxe/po/da.po --output-file $(CURDIR)/tv-maxe/lng/da/LC_MESSAGES/tvmaxe.mo
+	/usr/bin/msgfmt $(CURDIR)/tv-maxe/po/es.po --output-file $(CURDIR)/tv-maxe/lng/es/LC_MESSAGES/tvmaxe.mo
+	/usr/bin/msgfmt $(CURDIR)/tv-maxe/po/hr.po --output-file $(CURDIR)/tv-maxe/lng/hr/LC_MESSAGES/tvmaxe.mo
+	/usr/bin/msgfmt $(CURDIR)/tv-maxe/po/ro.po --output-file $(CURDIR)/tv-maxe/lng/ro/LC_MESSAGES/tvmaxe.mo
+	/usr/bin/msgfmt $(CURDIR)/tv-maxe/po/ru.po --output-file $(CURDIR)/tv-maxe/lng/ru/LC_MESSAGES/tvmaxe.mo
+
 
 build-stamp: 
 	dh_testdir
