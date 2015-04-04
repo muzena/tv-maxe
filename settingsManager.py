@@ -7,7 +7,8 @@ except:
     remoteC = None
 
 slist = []
-slist.append([1, 'http://github.com/muzena/tv-maxe/blob/master/subscriptions/Croatia1'])
+slist.append([1, 'https://github.com/muzena/tv-maxe/raw/master/subscriptions/Croatia.db'])
+slist.append([1, 'https://github.com/muzena/tv-maxe/raw/master/subscriptions/yug.db'])
 slist.append([1, 'http://tv-maxe.org/subscriptions/Romania.db'])
 slist.append([1, 'http://tv-maxe.org/subscriptions/International'])
 
